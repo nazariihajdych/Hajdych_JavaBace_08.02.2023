@@ -87,28 +87,39 @@ public class Main {
 
         //switch case
 
-        int a = 3;
-
-        switch (a) {
-            case 1: {
-                System.out.println("1");
-                break;
-            }
-            case 2: {
-                System.out.println("2");
-                break;
-            }
-            case 3: {
-                System.out.println("3");
-                break;
-            }
-            default: {
-                System.out.println("default");
-                break;
-            }
-        }
-
-
+//        int a = 3;
+//
+//        switch (a) {
+//            case 1: {
+//                System.out.println("1");
+//                break;
+//            }
+//            case 2: {
+//                System.out.println("2");
+//                break;
+//            }
+//            case 3: {
+//                System.out.println("3");
+//                break;
+//            }
+//            default: {
+//                System.out.println("default");
+//                break;
+//            }
+//        }
+//
+//        String str = "qwerty";
+//        String str2 = "qwerty";
+//        String str3 = new String("qwertY");
+//
+//        System.out.println(str == str2);
+//        System.out.println(str == str3);
+//
+//        System.out.println();
+//        System.out.println();
+//
+//        System.out.println(str.equals(str3));
+//        System.out.println(str.equalsIgnoreCase(str3));
 
 
     }
