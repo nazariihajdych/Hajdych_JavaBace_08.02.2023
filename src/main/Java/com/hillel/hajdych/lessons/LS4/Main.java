@@ -56,17 +56,60 @@ public class Main {
 //            System.out.println(false);
 //        }
 
+//
+//        int a = 10;
+//        int b = 5;
+//
+//        //Тернарний оператор заміна if, вкладеність тернарних операторів теж можлива
+//
+//        System.out.println(a >= b ? "a >=b" : "a < b");
+//                        //умова if тіло else тіло
 
-        int a = 10;
-        int b = 5;
 
-        //Тернарний оператор заміна if, вкладеність тернарних операторів теж можлива
+        //----------------------//
+        //Побітові оператори перевірок
 
-        System.out.println(a >= b ? "a >=b" : "a < b");
-                        //умова if тіло else тіло
+//        int a = 14;
+//        int b = 11;
+//
+//        System.out.println(Integer.toBinaryString(a));
+//        System.out.println(Integer.toBinaryString(b));
+//
+//        System.out.println(Integer.toBinaryString(a & b));
+//        System.out.println(a & b);
+//        System.out.println(Integer.toBinaryString(a | b));
+//        System.out.println(a | b);
+//        System.out.println(Integer.toBinaryString(a ^ b));
+//        System.out.println(a ^ b);
 
 
+        //---------------//
 
+        //switch case
+
+        int a = 3;
+
+        switch (a){
+            case 1 : { System.out.println("1");
+            break;
+            }
+            case 2 : {
+                System.out.println("2");
+                break;
+            }
+            case 3 : {
+                System.out.println("3");
+                break;
+            }
+            default: {
+                System.out.println("default");
+                break;
+            }
+            case 4 : {
+                System.out.println("4");
+                break;
+            }
+        }
 
 
 
