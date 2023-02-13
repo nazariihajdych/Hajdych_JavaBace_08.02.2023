@@ -1,5 +1,7 @@
 package com.hillel.hajdych.lessons.LS4;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 //        int a = 10;
@@ -120,6 +122,17 @@ public class Main {
 //
 //        System.out.println(str.equals(str3));
 //        System.out.println(str.equalsIgnoreCase(str3));
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Pleas enter number: ");
+        if (scanner.hasNextInt()){
+            int number = scanner.nextInt();
+            System.out.println("your number: " + number);
+        }else {
+            System.out.println("wrong number!");
+            System.exit(0);
+        }
 
 
     }
