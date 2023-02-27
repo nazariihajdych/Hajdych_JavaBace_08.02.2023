@@ -104,12 +104,12 @@ public class Main {
 //        System.out.println(Arrays.toString(array2));
 
 // копіювання готовий метод
-        int[] array1 = {1, 2, 3, 4, 5, 6};
-        int[] array2 = Arrays.copyOf(array1, array1.length); // Скільки потрібно скопіювати елементів? , більше ніж є заповнює 0;
-        int[] array4 = Arrays.copyOfRange(array1, 3, 5);
-
-        int[] array3 = new int[array1.length];
-        System.arraycopy(array1, 3, array3, 2, 2);
+//        int[] array1 = {1, 2, 3, 4, 5, 6};
+//        int[] array2 = Arrays.copyOf(array1, array1.length); // Скільки потрібно скопіювати елементів? , більше ніж є заповнює 0;
+//        int[] array4 = Arrays.copyOfRange(array1, 3, 5);
+//
+//        int[] array3 = new int[array1.length];
+//        System.arraycopy(array1, 3, array3, 2, 2);
 
 
 
