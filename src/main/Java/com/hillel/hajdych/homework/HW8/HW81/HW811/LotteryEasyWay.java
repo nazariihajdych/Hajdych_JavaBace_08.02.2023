@@ -19,7 +19,7 @@ public class LotteryEasyWay {
 
         System.out.println("Давайте зіграємо в лотерею!");
         System.out.println("Для виграшу потрібно набрати більше 2 збігів!");
-        System.out.println("Введіть 7 цілих чисел в діапазоні [0 -> 9] (через пробіл):");
+        System.out.println("Введіть 7 цілих чисел в діапазоні [0 -> 9]:");
 
         for (int i = 0; i < userGuess.length; i++) {
             System.out.print("Число №" + (i + 1) + ": ");
