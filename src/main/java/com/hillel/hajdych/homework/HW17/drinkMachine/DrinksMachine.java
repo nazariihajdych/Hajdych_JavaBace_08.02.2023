@@ -9,7 +9,7 @@ public enum DrinksMachine {
     MINERAL_WATER("Мінеральна вода"),
     COCA_COLA("Кока Кола");
 
-    private String type;
+    private final String type;
 
     DrinksMachine(String type) {
         this.type = type;
