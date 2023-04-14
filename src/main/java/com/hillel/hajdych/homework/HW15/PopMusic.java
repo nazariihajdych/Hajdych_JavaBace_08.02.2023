@@ -21,3 +21,4 @@ public class PopMusic extends MusicStyles {
         this.nameOfBand = nameOfBand;
     }
 }
+

@@ -22,6 +22,7 @@ public class MainArrayMethods {
         System.out.println();
         printSqrtMatrix(arrayNoSqrt);
 
+
     }
 
     static double avgArray(int[] array) {
